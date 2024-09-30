@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    button.next-btn {
+  margin-top: 20px; /* Adjust as necessary */
+  margin-bottom: 5rem; /* To match spacing similar to Home Page */
+  padding: 10px 20px;
+  background-color: #3490dc; /* Blue color */
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button.next-btn:hover {
+  background-color: black;
+}
+}
